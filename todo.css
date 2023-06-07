@@ -1,8 +1,5 @@
 
 body {
-    display:flex;
-    justify-content: center;
-    align-items: center;
     min-height:auto;
     background: #111;
 
@@ -17,6 +14,9 @@ body {
     position:relative;
     background: #fff;
     width: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .list h2{
     background: #010b10;
