@@ -6,10 +6,9 @@
         <h1>T O D O</h1>
         <style>
             input[type=text] {
-                width: 50%;
+                width: 70%;
                 padding: 12px 20px;
-                margin: 8px 0;
-                box-sizing: border-box;
+                border-top-left-radius: 5px;
                 
                 
             }
@@ -19,15 +18,20 @@
                 color: white;
                 padding: 14px 22px;
                 text-decoration: none;
-                margin: 4px 2px;
                 cursor: pointer;
-                
+                width:30%;
+                border-top-right-radius: 5px;
             }
             
         </style>
         <body>
             <div class="list">
-                <h2>TODO LIST</h2>
+                <form style="display:flex;">
+                
+                    <input type="text" id="fname" name="fname" placeholder="Create a new todo..">
+                    <input type="button" value="Submit">
+                </form>
+                <h2>Ongoing Tasks</h2>
                 <ul>
                     <li>
                         <label>
@@ -66,11 +70,7 @@
                 </ul>
             </div>
             <link rel="stylesheet" href="todo.css">
-            <form>
-                
-                <input type="text" id="fname" name="fname" placeholder="Create a new todo..">
-                <input type="button" placeholder="Submit">
-            </form>
+            
         </body>
     </head>
 
