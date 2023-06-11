@@ -6,7 +6,7 @@ body {
     min-height:auto;
     background: #111;
 
-   /* background-image: url('subway.jpg'), url('plain_blackpng.png');*/
+   
     background-color: rgb(0, 0, 0);
     background-position: right bottom, left top;
     background-repeat: no-repeat;
